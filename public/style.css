@@ -1,0 +1,17 @@
+body {
+  background: #444;
+}
+
+h1 {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  display: block;
+}

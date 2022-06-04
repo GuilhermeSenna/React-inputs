@@ -24,8 +24,6 @@ const App = () => {
     // Result: {cat: 'meow', dog: 'bark', lion: 'roar'};
 
     setFormData({ ...formData, [id]: value });
-
-    // setFormData((data) => (data[id] = value));
   };
 
   const submitHandler = (event) => {
@@ -39,7 +37,7 @@ const App = () => {
       <form onSubmit={submitHandler}>
         <h1>Componente Login </h1>
 
-        <label>Username</label>
+        <label>Username:</label>
         <input
           type="text"
           id="username"
@@ -49,7 +47,7 @@ const App = () => {
         <br />
         <br />
 
-        <label>Password</label>
+        <label>Password:</label>
         <input
           type="password"
           id="password"
